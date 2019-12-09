@@ -1,5 +1,4 @@
 class Anagram
-  
   attr_accessor :word
   
   def initialize(word)
@@ -11,5 +10,4 @@ class Anagram
     
     words_array.select { |word| @word.split("").sort == word.split("").sort }
   end
-  
 end 
